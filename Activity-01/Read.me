@@ -1,1 +1,45 @@
-I love India
+This assignment contains two Python scripts:
+
+setup_files.py – creates a folder structure called "test_root" with 20 .txt files inside different subfolders.
+
+scan.py – recursively scans the "test_root" directory to find all .txt files, prints their sizes in KB, and shows a summary by folder.
+
+Enhancement Chosen:
+I implemented Enhancement #2: Group files by folder summary. At the end of the output, the program shows how many .txt files are in each folder and their total size in kilobytes.
+
+How to Run:
+
+Open terminal and navigate to the Activity-01 folder:
+cd Activity-01
+
+Run the setup script to generate test files:
+py setup_files.py
+
+Run the scanner:
+py scan.py test_root
+
+Sample Output:
+Scanning: C:\Users...\test_root
+Found 20 text files:
+
+File Size (KB)
+docs/file0.txt 0.1
+...
+logs/archive/file4.txt 0.1
+Total size: 19.5 KB
+
+Summary:
+docs/ — 5 files, 4.9 KB
+logs/ — 5 files, 4.9 KB
+docs/subfolder/ — 5 files, 4.9 KB
+logs/archive/ — 5 files, 4.9 KB
+
+Files Submitted:
+
+setup_files.py
+
+scan.py
+
+Read.me
+
+This assignment helped me learn how to scan folders using Python, calculate file sizes, and group output in a clean way
